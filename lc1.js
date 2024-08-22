@@ -8,3 +8,8 @@ var twoSum = function(nums, target) {
     let unique_res = [...new Set(res)];
     return unique_res;
 };
+
+let target = 9;
+let nums = [1,2,3,4,5];
+let r = twoSum(nums, target);
+console.log(r);
