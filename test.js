@@ -1,6 +1,6 @@
-// let obj = {1:'hi',2:'hello'};
-// let arr = JSON.parse(obj);
-// console.log(arr);
+// // let obj = {1:'hi',2:'hello'};
+// // let arr = JSON.parse(obj);
+// // console.log(arr);
 
 
 function secondLargest(arr) {
@@ -18,17 +18,21 @@ function secondLargest(arr) {
     return secondLargest;
 }
 
-console.log(secondLargest([1, 4, 8, 2, 9]));
-// let arr = [1, 12, 8, 2, 9,6,11];
-// let largest = arr[0];
-// let secondLargest = null;
-// for (let i = 1; i < arr.length; i++) {
-//     if (arr[i] > largest) {
-//         secondLargest = largest;
-//         largest = arr[i];
-//     }
-//     else if(secondLargest<arr[i]){
-//         secondLargest = arr[i]
-//     }
-// }
-// console.log(secondLargest);
+// console.log(secondLargest([1, 4, 8, 2, 9]));
+// // let arr = [1, 12, 8, 2, 9,6,11];
+// // let largest = arr[0];
+// // let secondLargest = null;
+// // for (let i = 1; i < arr.length; i++) {
+// //     if (arr[i] > largest) {
+// //         secondLargest = largest;
+// //         largest = arr[i];
+// //     }
+// //     else if(secondLargest<arr[i]){
+// //         secondLargest = arr[i]
+// //     }
+// // }
+// // console.log(secondLargest);
+let a = [1]
+b = a
+b[0] = 2
+console.log(a);
