@@ -3,3 +3,4 @@ var buyChoco = function (prices, money) {
     let balance = money - (sortedArray[1] + sortedArray[0])
     return balance < 0 ? money : balance
 };
+
