@@ -32,7 +32,11 @@ function secondLargest(arr) {
 // //     }
 // // }
 // // console.log(secondLargest);
-let a = [1]
-b = a
-b[0] = 2
-console.log(a);
+// let a = [1]
+// b = a
+// b[0] = 2
+// console.log(a);
+let nums= [{1:2}]
+nums[-1] = 4
+console.log(nums);
+
